@@ -1,5 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/** Поправь форматирование, лишние строки и отступы */
 fun main() {
 
 
@@ -23,7 +24,7 @@ fun main() {
     //task 2
 
     for (i in 1..5) {
-
+        /** Тут необходимо использовать when для переменной i, у меня одна переменная принимает несколько значений возможных, when гораздо лучше читается в таких случаях */
         if  (i in 1..3 )println("Test $i: In process...")
         if  (i == 4 )println("Test 4 Failed")
         if  (i == 5 )println("Test 5 Success")
